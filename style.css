@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#count-label {
+    font-size: 7rem;
+    display: block;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.buttons-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.box1, 
+.box2, 
+.box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding-block: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px black;
+}
+
+.buttons {
+    padding: 15px 50px;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(117, 166, 240);
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: ease all 0.25s;
+}
+
+.buttons:hover {
+    background-color: rgb(21, 108, 238);
+}
